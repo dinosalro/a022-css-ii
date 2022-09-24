@@ -1,3 +1,8 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 header {
   text-align: center;
   border-bottom: 1px solid black;
@@ -5,16 +10,17 @@ header {
 
 main {
   position: relative;
-  left: 400px;
-  width: 800px;
+  left: 25vw;
+  width: 50vw;
 }
 
 aside {
   text-align: center;
   position: fixed;
-  right: 190px;
+  right: 20px;
   width: 180px;
   border: 1px solid black;
+  bottom: 40px
 }
 
 footer {
